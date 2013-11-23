@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>TinyTabs Example</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="tinytabs.js"></script>
+<link rel="stylesheet" href="tinytabs.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+<br />
+<h1>TinyTabs</h1>
+<p>Small vertical tabs with jQuery and CSS</p>
+
+<br /><br />
+
+
+<h2>Default Example</h2>
+
+<div id="tinytabs">
+
+	<ul class="tabs">
+		<li><a href="#tab1" class="tinytabs current">Tab 1</a></li>
+		<li><a href="#tab2" class="tinytabs">Tab 2</a></li>
+		<li><a href="#tab3" class="tinytabs">Tab 3</a></li>
+	</ul>
+
+    <div class="tabcontent">
+    
+    	<div id="tab1" class="tinycontent">
+        Content 1
+        </div>
+    
+        <div id="tab2" class="tinycontent">
+        Content 2
+        </div>
+        
+        <div id="tab3" class="tinycontent">
+        Content 3
+        </div>
+        
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+  $(function(){
+		  
+	$('#tinytabs').tinytabs();	  
+		
+  });
+
+</script>
+
+
+
+<br />
+<h2>Fade in transition</h2>
+
+<div id="tinytabs2">
+
+	<ul class="tabs">
+		<li><a href="#tab4" class="tinytabs current">Tab 1</a></li>
+		<li><a href="#tab5" class="tinytabs">Tab 2</a></li>
+		<li><a href="#tab6" class="tinytabs">Tab 3</a></li>
+	</ul>
+
+    <div class="content">
+    
+    	<div id="tab4" class="tinycontent">
+        Content 4
+        </div>
+    
+        <div id="tab5" class="tinycontent">
+        Content 5
+        </div>
+        
+        <div id="tab6" class="tinycontent">
+        Content 6
+        </div>
+        
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+  $(function(){
+		  
+	$('#tinytabs2').tinytabs({transition: 'fade'});	  
+		
+  });
+
+</script>
+
+
+
+
+
+<h2>Ajax Example</h2>
+
+<div id="ajaxtabs">
+
+	<ul class="tabs">
+		<li><a href="examples/page1.html" class="tinytabs current">Tab 1</a></li>
+		<li><a href="examples/page2.html" class="tinytabs">Tab 2</a></li>
+		<li><a href="examples/page3.html" class="tinytabs">Tab 3</a></li>
+	</ul>
+
+	
+
+    <div class="content" id="window">
+    
+    	
+        
+       
+        
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+  $(function(){
+		  
+	$('#ajaxtabs').tinytabs({type: 'ajax', ajaxdiv: 'window', transition: 'fade'});	  
+		
+  });
+
+</script>
+
+</div>
+
+
+</body>
+</html>

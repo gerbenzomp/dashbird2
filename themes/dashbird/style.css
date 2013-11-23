@@ -1,0 +1,130 @@
+body{
+background-image: url(img/bg.png);	
+margin: 0;
+padding: 0;
+}
+
+.wrapper{
+width: 300px;
+margin: 0 auto;
+margin-top: 80px;	
+}
+
+.box{
+	border: 1px solid #999;
+	border-radius: 8px;
+	background-color: white;
+	 box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.header{
+background-color: #EEE;
+background-image: url(img/toolbar-back.png);
+border-bottom: 1px solid #CCC;
+
+
+font-weight: bold;	
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+padding-top: 10px;
+height: 30px;
+text-align: center;
+}
+.content{
+padding: 15px;	
+}
+
+
+.progress {
+    position: relative;
+    width: 100%;
+
+   
+    overflow: hidden;
+}
+
+.bar {
+
+}
+
+#url{
+ width: 265px;
+ margin-top: 10px;
+ margin-bottom: 0px;	
+}
+
+.alert{
+ margin-top: 10px;
+ margin-bottom: 0px;
+
+}
+
+form{
+padding: 0;
+margin: 0;	
+}
+
+ul.fileslist{
+list-style-type: none;
+padding: 0;
+margin: 0;	
+}
+
+ul.fileslist li{
+	padding: 15px;
+	border-bottom: 1px solid #CCC;
+}
+
+ul.fileslist li:last-child{
+border-bottom: 0;	
+}
+
+a{
+color: black;
+text-decoration: none !important;	
+}
+
+.button{
+display: inline-block;
+padding: 5px;
+padding-left: 20px;
+padding-right: 20px;
+border: 1px solid #CCC;	
+margin-top: 15px;
+margin-right: 5px;
+border-bottom: 0;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.active{
+background-color: white;
+
+}
+
+.input-mini{
+width: 30px !important;	
+}
+
+.input-small{
+width: 50px !important;	
+}
+
+.input{
+width: 147px !important;	
+}
+
+.input-large{
+width: 255px !important;	
+}
+
+.split-button{
+padding-top: 5px; padding-bottom: 6px;
+}
+
+@media only screen and (max-width : 400px) {
+	.split-button{
+	padding-top: 4px; padding-bottom: 4px;
+	}
+	
+}

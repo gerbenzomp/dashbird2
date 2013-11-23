@@ -1,0 +1,224 @@
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	
+
+
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+	
+}
+
+#page nav
+{
+	display: none;
+}
+
+#bb-header,
+.header
+{
+	background: #999;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 50px;
+	font-family: helvetica, sans-serif;
+	/* background-image: url(http://metdressing.blogbird.nl/application/views/sparrow/img/head-straight.png); */
+
+	
+}
+#bb-header a,
+.header a
+{
+	background: center center no-repeat transparent;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE1JREFUeNpi/P//PwOtARMDHQBdLGFBYt+nkR2KjEhxQqvIYaR7cD2glSWMo0mY3DiJo5Edi4ZPEqZ7nMSP5pPRon60qB9NwpQDgAADAMIxHUJvWs/TAAAAAElFTkSuQmCC);
+
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+#bb-header a.friends,
+.header a.friends
+{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVNJREFUeNq01jFLAzEYxvH2UBCxiIiDUhzcdXCyIk5ufgUXLR37JdxcXBxcuwmOOtml0EKpo04iWIpIQREVEVFLjf9AhoC9e3O5uxd+lMLdPU1yedO8UiqXdQWO122ghi4+8IwGqiiId+uRCHbxqsLrFHNRz5ACSnhTch1EPScQpnIH0w7TWcGiz5rouS45rtkMVnxCJrAQ4yUq+oT8YhAjZOAT8oWHGCE9nxC9H64cA15w4xOiW0HbfErVNhvUa8c3cecQcoZv3xA9z+fCNbe4SNq7jvEUMaUnuE/au7SjkHbSR1G637ULh73Kn+gn7cIBttELGckQh9Jo8iMOrSksYx2b2MKk8FuvUUcHl/9GbiWuooYu3pVf/eARLZQxbp8na2YR0659e+HLmM/geN+z98lSRv8hZu2QQkYh+kzKjZkvHdPahymH6DNp5Cucev0JMAAkKj0NEoYBJwAAAABJRU5ErkJggg==);}
+#bb-header a.right,
+.header a.right
+{
+	left: auto;
+	right: 10px;
+}
+
+.content
+{
+	padding: 20px;
+}
+
+.icon{
+margin-right: 10px;	
+}
+
+.form{
+	padding: 20px;
+	background-color: white;
+}
+
+.content{
+text-shadow: none !important;
+color: #333;	
+}
+
+.section{
+background-color:#09C;
+
+color: white;
+padding: 5px;
+padding-left: 20px;	
+font-weight: bold;
+text-shadow: none;
+}
+
+
+
+.mm-menu .force-add a.mm-subopen:after{
+	border-style: none !important;	
+}
+
+
+#menu ul{
+padding-top: 0;	
+}
+
+.help-block{
+color: #999 !important;
+font-size: 12px !important;
+}
+
+
+.mm-subopen{
+  background-color: #f9f9fa;
+color: #333 !important;
+
+}
+
+.mm-open{
+  background-color: #f9f9fa;
+color: #333 !important;
+
+}
+
+
+.mm-subclose{
+
+border-bottom: 1px solid #CCC;
+color: #333 !important;
+padding-left: 6px !important;
+display: none !important;
+}
+
+
+
+.mm-menu a{
+outline: none !important;	
+padding-bottom: 10px !important;
+
+
+}
+
+.mm-menu a:hover{
+	
+
+}
+
+.head{
+height: 40px;
+background-color: #EEE;
+border-bottom: 1px solid #999;	
+background-image: url(http://gerben.blogbird.nl/application/views/sparrow/img/head-straight.png);
+}
+
+.head h3{
+text-align: center;
+margin-top: 0;
+margin-left: -35px !important;
+display: inline-block;	
+}
+
+.head a{
+color: #333;
+padding: 8px;
+display: inline-block;	
+cursor: pointer;
+float: left;
+}
+
+.head a:hover{
+background-color: transparent;	
+text-decoration: none;
+color: #333;
+}
+
+.head .bb-add{
+float: right;
+
+margin-right: 10px;	
+}
+
+
+.head .bb-close{
+float: left;
+
+margin-left: 14px;	
+display: block !important;
+border: 0 !important;
+}
+
+.content{
+background-color: white;	
+}
+
+
+.mm-menu em.bb-counter {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+    border-radius: 5px 5px 5px 5px;
+  
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    font-style: normal;
+	color: white;
+	
+}
+.mm-menu em.bb-counter {
+    display: block;
+ 
+    line-height: 22px;
+    min-width: 16px;
+    padding: 0 2px;
+    position: absolute;
+    right: 40px;
+    text-align: center;
+    text-indent: 0;
+    text-shadow: none;
+    top: 20px;
+	background-color: #F90;
+	box-shadow: none;
+}
+
+
+
+.mm-menu hr{
+border: 0;
+border-top: 1px solid #CCC;
+clear: both;
+margin-top: 20px;
+margin-bottom: 20px;	
+}

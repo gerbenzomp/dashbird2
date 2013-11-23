@@ -1,0 +1,48 @@
+/* ----- Tabs css ----- */
+
+.tabs{
+	width: 130px;
+	list-style-type: none;
+	padding-bottom: 15px;
+	
+	float: left;
+	margin: 0;
+}
+
+.tabs li:last-child{
+	border-bottom: 1px solid #CCC;
+}
+
+.tabcontent{
+	width: 734px;
+	margin-left: 129px !important;
+	border: 1px solid #CCC;
+	min-height: 400px;
+	padding: 20px;
+	padding-top: 12px;
+	background-color: white;
+	background-image: none;
+}
+
+.tinytabs{
+	display: block;
+	padding: 10px;
+	border: 1px solid #CCC;	
+	background-color: #EEE;
+	border-bottom: 0;
+}
+
+
+.current{
+	border-right: 0;
+	background-color: white;
+}
+
+/* ----- Just for the demo, you can leave this out ----- */
+
+
+a{
+	text-decoration: none;
+	color: black;	
+}
+
