@@ -436,17 +436,26 @@ function end_editable($clear=0){
 }
 
 
+
 function themePrefs($blog=''){
-	
+	$CI =& get_instance();
 	
 	if($blog==''){
-		$CI =& get_instance();
 	$blog = $CI->session->userdata('blog');
 	}
 	
+	$CI->db->where('url', $blog);
+		$q=$CI->db->get('blogs');
+		$myblog=$q->row();
+		
+		
 	
-	if(file_exists(APPPATH.'../sites/'.$blog.'/config.php')){
-	include(APPPATH.'../sites/'.$blog.'/config.php');
+	if(file_exists(APPPATH.'../themes/'.$myblog->theme.'/config.php')){
+	include(APPPATH.'../themes/'.$myblog->theme.'/config.php');
+	return $thm;
+	}
+	elseif(file_exists(APPPATH.'../themes/'.$blog.'/config.php')){
+	include(APPPATH.'../themes/'.$blog.'/config.php');
 	return $thm;
 	}
 	else{
@@ -456,6 +465,7 @@ function themePrefs($blog=''){
 	
 	
 }
+
 
 
 
