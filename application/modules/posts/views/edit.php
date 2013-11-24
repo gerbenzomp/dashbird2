@@ -73,7 +73,10 @@ $numaddons = "";
     
 		<li><a href="#tab1" class="tinytabs current badge">Title and body</a></li>
 		<li><a href="#tab2" class="tinytabs badge" id="tab-photo">Gallery<?=$numfiles;?></a></li>
+        
+        <!--
 		<li><a href="#tab3" class="tinytabs badge">Add-ons<?=$numaddons;?></a></li>
+        -->
          <?php if($this->router->method == 'modal_edit' && $visible != 0){ ?>
          
            <li style="float: right;"><a href="#tab5" class="tinytabs badge" class="iphone-hide">Delete</a></li>
