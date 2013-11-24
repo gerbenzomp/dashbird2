@@ -24,7 +24,7 @@ if($module=='posts'){ ?>
 
 <ul class="tabs">
 
-<li><a class="tinytabs badge" href="<?=base_url();?>posts/edit"><i class="fa-icon-plus" style="color: white; margin-right: 3px;  margin-left: 2px; padding-right: 0;"></i>&nbsp;Add post &nbsp;</a></li>
+<li><a class="tinytabs badge" href="<?=base_url();?>posts/edit"><i class="fa fa-plus" style="color: white; margin-right: 3px;  margin-left: 2px; padding-right: 0;"></i>&nbsp;Add post &nbsp;</a></li>
 
 
 
@@ -187,7 +187,7 @@ function showPage(url, title){
 
 
 
-<li><a class="tinytabs badge" href="<?=base_url();?>pages/edit">&nbsp;<i class="fa-icon-plus" style="color: white; margin-right: 3px; padding-right: 0;"></i>&nbsp;Add page &nbsp;</a></li>
+<li><a class="tinytabs badge" href="<?=base_url();?>pages/edit">&nbsp;<i class="fa fa-plus" style="color: white; margin-right: 3px; padding-right: 0;"></i>&nbsp;Add page &nbsp;</a></li>
 
 
 
@@ -411,7 +411,7 @@ else{
 
 
 
-<li><a class="tinytabs badge" href="<?=base_url();?>users/edit">&nbsp;<i class="fa-icon-plus" style="color: white; margin-right: 3px; padding-right: 0;"></i>&nbsp;Add user &nbsp;</a></li>
+<li><a class="tinytabs badge" href="<?=base_url();?>users/edit">&nbsp;<i class="fa fa-plus" style="color: white; margin-right: 3px; padding-right: 0;"></i>&nbsp;Add user &nbsp;</a></li>
 
 
 
@@ -610,7 +610,7 @@ foreach($q2->result() as $item){
   
 <ul class="tabs">
 
-<li><a class="tinytabs badge" href="#!/add/dates">&nbsp;<i class="fa-icon-plus" style="color: white; margin-right: 3px; padding-right: 0;"></i>&nbsp;Add date &nbsp;</a></li>
+<li><a class="tinytabs badge" href="#!/add/dates">&nbsp;<i class="fa fa-plus" style="color: white; margin-right: 3px; padding-right: 0;"></i>&nbsp;Add date &nbsp;</a></li>
 
 </ul>
 
