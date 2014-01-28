@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media only screen and (max-width : 1130px) {
+	body{
+	background-image: none;	
+	}
+	
+	
+	#logo{
+	display: none;	
+	}
+	
+	#wrapper{
+		width: 100%;
+	margin: 0;
+	}
+	
+	#navbar-wrapper{
+		width: 100% !important;
+	}
+	
+	ul#nav li:first-child a {
+    border-top: 0 !important;
+}
+	
+	
+	
+	.subtitle{
+	display: none;	
+	}
+	
+	#nav{
+	padding-top: 0px !important;
+	
+	}
+	
+	#nav li{
+	border-top: 0 !important;	
+		border-bottom: 0 !important;	
+	border-left: 0 !important;
+	}
+	
+	
+	
+		#content{
+	border: 0;
+	border-bottom: 1px solid #CCC;
+	border-radius: 0;	
+	}
+	
+	#head{
+	border: 0;
+	
+	}
+	
+	
+	#sidenav2{
+	width: 250px;	
+	}
+	
+	
+	
+	#side{
+	width: 250px;
+	margin-left: -20px !important;	
+	}
+	
+		/*
+	#main{
+	width: 760px !important;
+	}
+	*/
+	
+}
+
+
+
+@media only screen and (max-width : 1024px) {
+	
+	#head{
+	display: none;	
+	}
+	
+	#sidenav2{
+	width: 65px;	
+	}
+	
+	
+	
+	#side{
+	width: 65px;
+	
+	}
+	
+	/*
+	#main{
+	width: 690px !important;
+	}
+	*/
+	
+	.title{
+	display: none;	
+	}
+	
+	#nav .badge{
+	display: none;	
+	}
+	
+	#nav li a{
+		padding-bottom: 0px !important;
+		padding-top: 25px !important;
+	}
+	
+	#navbar-wrapper a:first-child{
+	padding-left: 62px;	
+	}
+	
+}
+
+@media only screen and (max-width : 450px) {
+	
+	
+	
+	/*
+	#main{
+	width: 345px !important;
+	}
+	
+	*/
+	
+
+}
+
+
+
+@media only screen and (max-width : 320px) {
+	
+	.iphone-hide{
+	display: none;	
+	}
+	
+	/*
+	#main{
+	width: 245px !important;
+	}
+	*/
+
+}
+

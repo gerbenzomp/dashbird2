@@ -17,6 +17,9 @@
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
+<link rel="stylesheet/less" type="text/css" href="<?=base_url();?>application/views/sparrow/js/glyph-retina/less/sprites.less">
+<script src="https://raw.github.com/less/less.js/master/dist/less-1.4.1.min.js" type="text/javascript"></script>
+
 
 <?php if($this->uri->segment(1)=='posts'){ ?>
 <!-- Ajax Upload -->
@@ -72,9 +75,8 @@ var breakpoint_lo = 770;
 
 <link rel="stylesheet" href="<?=base_url();?>application/views/sparrow/style.css" type="text/css" media="screen" />
 
-<!--
-<link rel="stylesheet" href="<?=base_url();?>application/views/sparrow/responsive.css" type="text/css" media="screen" />
--->
+
+<link rel="stylesheet" href="<?=base_url();?>application/views/sparrow/mobile.css" type="text/css" media="screen" />
 
 <link href="<?=base_url();?>application/plugins/icon-toolbar/css/style.css" rel="stylesheet">
 
